@@ -2,6 +2,8 @@ package ui;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class MainForm extends JFrame {
 
@@ -12,13 +14,44 @@ public class MainForm extends JFrame {
 
     public MainForm() {
 
+        // Configurando a janela do programa(MainForm) e a tornando visivel  (Setting the program Panel(MainForm) and making it visible)
         setContentPane(rootPanel);
         setSize(500,250);
         setVisible(true);
 
+        // Colocando a janela(MainForm) no meio da tela (set the panel(MainForm) in middle of the screen)
         Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
-        setLocation(dim.width / 2 - getSize().width, dim.height / 2 - getSize().height);
+        setLocation(dim.width / 2 - getSize().width / 2, dim.height / 2 - getSize().height / 2);
 
+        // Comando para parar o programa depois de fechar a janela(Mainform) (comand for stop the program after close de panel(Mainform))
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+
+        // chamando função de configurar o clique dos botões (calling function to configure the click of buttons)
+        setListeners();
+    }
+
+    private void setListeners(){
+
+        // Criando a ação que será realizada ao clicar no botão de criar novo contato (Creating the action that will be performed when clicking the create new contact button)
+        buttonNewContact.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                // Chamando a janela de cadastro de novo contato(ContactForm) (calling the panel of register new contact(ContactForm))
+                new ContactForm();
+
+                // Fechamdo a janela principal(MainForm) e deixando só a de criação de novo contato(ContactForm) Closing the main window (MainForm) and leaving only the new contact creation window (ContactForm)
+                dispose();
+
+            }
+        });
+
+        // Criando a ação que será realizada ao clicar no botão remover (Creating the action that will be performed when clicking the remove button)
+        buttonRemove.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
     }
 }
