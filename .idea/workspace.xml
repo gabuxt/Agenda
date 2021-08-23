@@ -4,10 +4,6 @@
     <list default="true" id="18d008aa-275b-4767-b3bf-3f27bca483a3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/ContactForm.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ContactForm.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/ContactForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ContactForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/MainForm.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/MainForm.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/MainForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/MainForm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +14,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
