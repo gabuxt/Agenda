@@ -1,9 +1,14 @@
 package ui;
 
+import business.ContactBusiness;
+import entity.ContactEntity;
+
 import javax.swing.*;
+import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.List;
 
 public class MainForm extends JFrame {
 
@@ -11,6 +16,9 @@ public class MainForm extends JFrame {
     private JButton buttonNewContact;
     private JButton buttonRemove;
     private JTable tableContacts;
+    private JLabel labelContactCount;
+
+    private ContactBusiness mContactBusiness;
 
     public MainForm() {
 
@@ -28,6 +36,32 @@ public class MainForm extends JFrame {
 
         // chamando função de configurar o clique dos botões (calling function to configure the click of buttons)
         setListeners();
+
+        mContactBusiness = new ContactBusiness();
+        loadContacts();
+    }
+
+    private void loadContacts(){
+
+        List<ContactEntity> listContact = mContactBusiness.getListContact();
+
+        String[] columnNames = {"nomme","telefone"};
+        DefaultTableModel model = new DefaultTableModel(new Object[0][0], columnNames);
+
+        for (ContactEntity contact : listContact){
+
+            Object[] obj = new Object[2];
+
+            obj[0] = contact.getName();
+            obj[1] = contact.getPhone();
+
+            model.addRow(obj);
+        }
+
+        tableContacts.clearSelection();
+        tableContacts.setModel(model);
+
+        labelContactCount.setText(mContactBusiness.getContactCountDescription());
     }
 
     private void setListeners(){
