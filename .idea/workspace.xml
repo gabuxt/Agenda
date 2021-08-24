@@ -2,35 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18d008aa-275b-4767-b3bf-3f27bca483a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-reflect-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-reflect.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-test-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-test.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AgendaJavaSwing/business/ContactBusiness.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AgendaJavaSwing/business/Validations.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AgendaJavaSwing/entity/ContactEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AgendaJavaSwing/repository/ContactRepository$Companion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AgendaJavaSwing/repository/ContactRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/ContactEntity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/ContactRepository.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AgendaJavaSwing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AgendaJavaSwing.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AgendaJavaSwing/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgendaJavaSwing/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AgendaJavaSwing/repository/ContactRepository$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgendaJavaSwing/repository/ContactRepository$Companion.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AgendaJavaSwing/ui/MainForm$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgendaJavaSwing/ui/MainForm$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AgendaJavaSwing/ui/MainForm$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgendaJavaSwing/ui/MainForm$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AgendaJavaSwing/ui/MainForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgendaJavaSwing/ui/MainForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/business/ContactBusiness.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/business/ContactBusiness.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/business/Validations.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/business/Validations.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/MainForm.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/MainForm.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/ContactRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/repository/ContactRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/ContactForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ContactForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ui/MainForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/MainForm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,22 +99,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1629508970324" />
-    <state width="661" height="98" key="GridCell.Tab.0.bottom" timestamp="1629763160496">
+    <state width="661" height="98" key="GridCell.Tab.0.bottom" timestamp="1629779916540">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="98" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1629763160496" />
-    <state width="661" height="98" key="GridCell.Tab.0.center" timestamp="1629763160495">
+    <state width="661" height="98" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1629779916540" />
+    <state width="661" height="98" key="GridCell.Tab.0.center" timestamp="1629779916540">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="98" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1629763160495" />
-    <state width="661" height="98" key="GridCell.Tab.0.left" timestamp="1629763160495">
+    <state width="661" height="98" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1629779916540" />
+    <state width="661" height="98" key="GridCell.Tab.0.left" timestamp="1629779916540">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="98" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1629763160495" />
-    <state width="661" height="98" key="GridCell.Tab.0.right" timestamp="1629763160495">
+    <state width="661" height="98" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1629779916540" />
+    <state width="661" height="98" key="GridCell.Tab.0.right" timestamp="1629779916540">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="98" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1629763160495" />
+    <state width="661" height="98" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1629779916540" />
     <state x="344" y="3" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1629578872854">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
